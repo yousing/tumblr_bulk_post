@@ -1,0 +1,12 @@
+<form action='./tumblr_post' method='post'>
+		画像パス<input type="text" name="data" size=" 100" value='/Users/ucn/Downloads/' />※ローカルファイルのフルパスを設定<br />
+		タイトル<input type="text" name="caption" size="100" /><br />
+		url<input type="text" name="link" size="100" /><br />
+		tags<input type="text" name="tags" size="100" /><br />
+		ステータス<select name="state">
+			<option value="draft">draft</option>
+			<option value="queued">queued</option>
+			<option value="published">published</option>
+		</select>
+		<input type="submit" name="submit" value="送信" />
+</form>
