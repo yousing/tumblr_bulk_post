@@ -20,7 +20,7 @@ $ gem install thin
 1. tumblrにログイン
 1. https://www.tumblr.com/oauth/apps にてアプリを追加し、consumer_keyとconsumer_secretを取得
 1. https://api.tumblr.com/console/calls/user/info に上記で取得した、consumer_keyとconsumer_secretを使って、oauth_tokenとoauth_token_secretを取得
-1. 取得した値を `myapp.rb` にせっていする
+1. 取得した値を `myapp.rb` に設定する
 
 ## 使い方
 1. `$ sudo thin start -d` して起動してください。
